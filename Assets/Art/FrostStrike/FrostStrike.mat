@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FrostStrike
+  m_Shader: {fileID: 4800000, guid: b9b98ec39063da14f9db607f701b7a64, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseAlbedo:
+        m_Texture: {fileID: 2800000, guid: d4c28b651cba3d24f85f629089e5fec9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseIce:
+        m_Texture: {fileID: 2800000, guid: f7377c6ef9ca9d84abc960d90df9a7e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseNormals:
+        m_Texture: {fileID: 2800000, guid: 0052360578a97f44eb58b0f7499cb4ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceNoizeFirst:
+        m_Texture: {fileID: 2800000, guid: 8c4a7fca2884fab419769ccc0355c0c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceNoizeSecond:
+        m_Texture: {fileID: 2800000, guid: aaf2b208c6a9f3a44983db5ec886fec7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceNormals:
+        m_Texture: {fileID: 2800000, guid: f87448e246f2ff24eaa41137c1fd1e85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float1: -360
+    - _IceLengthSlider: 1
+    - _IceMaskTile: 0.13
+    - _IceSlider: 1
+    - _Smooth: 1
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessValue: 32
+    - __dirty: 0
+    m_Colors:
+    - _FrensnelColor: {r: 1, g: 0, b: 0, a: 1}
+    - _strikeDirection: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
